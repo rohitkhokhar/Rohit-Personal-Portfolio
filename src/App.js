@@ -7,6 +7,7 @@ import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
 
 const App = () => {
+  // intial level useEffect
   useEffect(() => {
     AOS.init({
       duration: 1200,
